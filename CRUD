@@ -1,0 +1,25 @@
+npm install
+npm start
+openapi: 3.0.2
+servers:
+  - url: /v3
+info:
+  description: |-
+    This is a sample CRUD application based on the conduit. You can find out more about
+    Swagger at [http://swagger.io](http://swagger.io). In the third iteration of the pet store, we've switched to the design first approach!
+    You can now help us improve the API whether it's by making changes to the definition itself or to the code.
+    That way, with time, we can improve the API in general, and expose some of the new features in OAS3.
+    
+  version: 1.0.17
+  title: CRUD application - OpenAPI 3.0
+  termsOfService: 'http://swagger.io/terms/'
+  contact:
+    email: apiteam@swagger.io
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header
